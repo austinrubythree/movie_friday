@@ -15,3 +15,9 @@
 #rails g paperclip movie image
 
 #layout create header partial
+
+#create structure of the images
+
+#rails g scaffold Review rating:integer commit:text
+
+# rails g migration add_user_id_to_review user_id:integer
