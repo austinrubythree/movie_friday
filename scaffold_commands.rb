@@ -23,3 +23,8 @@
 # rails g migration add_user_id_to_review user_id:integer
 
 # rails g migration add_movie_id_to_reviews movie_id:integer
+
+
+#brew services start elasticsearch
+
+#rails searchkick:reindex CLASS=Movie
